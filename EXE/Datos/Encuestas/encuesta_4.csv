@@ -1,0 +1,5 @@
+ID_Pregunta,Enunciado,Tipo_Pregunta,Tipo_Respuesta,Opciones
+1,Cuantos años tienes?,1,1,
+2,Tienes perro?,3,4,si:no
+3,Cuantos hermanos tienes?,1,2,
+4,Esto es una prueba?,2,4,si:no:puede:tal vez
