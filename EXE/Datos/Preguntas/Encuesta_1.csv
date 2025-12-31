@@ -1,0 +1,9 @@
+ID,TipoP,TipoR,Enunciado,IdEncuesta,Clase,Opciones
+1,1,1,¿Cuál es tu edad?,1,Libre,
+2,3,2,¿Cuál es tu género?,1,Unica,Masculino:Femenino:Otro:Prefiero no decir
+3,2,2,¿Qué deportes practicas?,1,Multiple,Fútbol:Baloncesto:Natación:Tenis:Ciclismo:Ninguno
+4,1,1,¿Cuántas horas duermes al día?,1,Libre,
+5,3,3,¿Cómo calificarías tu nivel de inglés?,1,Unica,Principiante:Intermedio:Avanzado:Nativo
+6,2,4,¿Qué redes sociales usas?,1,Multiple,Facebook:Instagram:Twitter:TikTok:LinkedIn:WhatsApp
+7,3,4,¿Cuál es tu color favorito?,1,Unica,Rojo:Azul:Verde:Amarillo:Negro:Blanco:Otro
+8,1,1,¿Cuántos libros lees al mes?,1,Libre,

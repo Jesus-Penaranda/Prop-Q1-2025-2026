@@ -1,0 +1,5 @@
+ID_Pregunta,Enunciado,Tipo_Pregunta,Tipo_Respuesta,Opciones
+1,Cuntás estrellas le das?,3,1,1:2:3:4:5
+2,Nivel de satisfacción,3,3,muy_malo:malo:regular:bueno:excelente
+3,Qué aspectos te gustaron?,2,4,diseño:precio:calidad:servicio:rapidez
+4,Precio que pagarias?,1,1,

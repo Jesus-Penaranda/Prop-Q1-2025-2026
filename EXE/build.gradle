@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:3.12.4'
+}
+
+application {
+    mainClass = 'Drivers.DriverVisual'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java'] 
+        }
+    }
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+    }
+}
+
+task ejecutarDriver(type: JavaExec) {
+    group = "Execution"
+    description = "Ejecuta el Driver Visual interactivo"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'Drivers.DriverVisual'
+    standardInput = System.in
+}
+
+task ejecutarInterfaz(type: JavaExec) {
+    group = "Execution"
+    description = "Ejecuta la Interfaz Gráfica (Swing)"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'Presentacion.main' 
+}

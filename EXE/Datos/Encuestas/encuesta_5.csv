@@ -1,0 +1,12 @@
+ID_Pregunta,Enunciado,Tipo_Pregunta,Tipo_Respuesta,Opciones
+1,Gender,3,4,Male:Female
+2,Married,3,4,Yes:No
+3,Dependents,3,3,0:1:2:3+
+4,Education,3,3,Not Graduate:Graduate
+5,Self_Employed,3,4,Yes:No
+6,ApplicantIncome,1,1,
+7,CoapplicantIncome,1,1,
+8,LoanAmount,1,1,
+9,Loan_Amount_Term,1,1,
+10,Credit_History,3,4,1:0
+11,Property_Area,3,3,Rural:Semiurban:Urban
