@@ -86,7 +86,7 @@ D_{nom}(x, y) =
 1 & \text{si } x \neq y
 \end{cases}
 $$
-
+ 
 ### Optimización y Calidad
 
 * **Coeficiente de Silhouette:** Evalúa la cohesión $a(i)$ y separación $b(i)$ de cada asignación. Un valor cercano a $1$ indica una agrupación ideal.
