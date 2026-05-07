@@ -20,9 +20,9 @@ abrir_navegador()
 
 clear
 
-echo "========================================================"
+echo "============================================="
 echo "   GESTOR DE EJECUCIÓN DEL PROYECTO (PROP)"
-echo "========================================================"
+echo "============================================="
 echo "Selecciona una opción:"
 echo ""
 echo "  0) Ejecutar Interfaz Gráfica"
@@ -32,7 +32,7 @@ echo "  3) Ejecutar Driver INTERACTIVO"
 echo "  4) Ejecutar TESTS (Reporte web)"
 echo "  5) Salir"
 echo ""
-echo "========================================================"
+echo "=============================================="
 read -p "Introduce opción: " opcion
 
 case $opcion in
