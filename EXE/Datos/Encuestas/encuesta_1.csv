@@ -1,0 +1,4 @@
+ID_Pregunta,Enunciado,Tipo_Pregunta,Tipo_Respuesta,Opciones
+1,Edad,1,1,
+2,Ciudad,3,3,Madrid:Barcelona:Valencia
+3,Hobbies,2,4,Futbol:Tenis:Pintura:Leer
